@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklittle_sandman=self.webpackChunklittle_sandman||[]).push([[929],{8977:s=>{s.exports=JSON.parse('{"tags":[{"label":"musique","permalink":"/little-sandman-docs/docs/little-sandman/blog/tags/musique","count":1}]}')}}]);
