@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklittle_sandman=self.webpackChunklittle_sandman||[]).push([[828],{8001:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/little-sandman-docs/docs/little-sandman/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
