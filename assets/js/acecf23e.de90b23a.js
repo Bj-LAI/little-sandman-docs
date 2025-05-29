@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklittle_sandman=self.webpackChunklittle_sandman||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/little-sandman-docs/blog","blogTitle":"Blog","authorsListPath":"/little-sandman-docs/blog/authors"}')}}]);
