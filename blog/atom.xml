@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/little-sandman-docs/blog</id>
+    <id>https://bj-lai.github.io/little-sandman-docs/blog</id>
     <title>Little Sandman Blog</title>
     <updated>2025-05-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/little-sandman-docs/blog"/>
+    <link rel="alternate" href="https://bj-lai.github.io/little-sandman-docs/blog"/>
     <subtitle>Little Sandman Blog</subtitle>
-    <icon>https://github.com/little-sandman-docs/img/lsdmn.png</icon>
+    <icon>https://bj-lai.github.io/little-sandman-docs/img/lsdmn.png</icon>
     <entry>
         <title type="html"><![CDATA[🎻 Musique multipiste]]></title>
-        <id>https://github.com/little-sandman-docs/blog/music</id>
-        <link href="https://github.com/little-sandman-docs/blog/music"/>
+        <id>https://bj-lai.github.io/little-sandman-docs/blog/music</id>
+        <link href="https://bj-lai.github.io/little-sandman-docs/blog/music"/>
         <updated>2025-05-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Bonjour à tous !]]></summary>
         <content type="html"><![CDATA[<p>Bonjour à tous !</p>
@@ -18,14 +18,14 @@
 ainsi que les problèmes rencontrés au cours de cette étape.</p>
 <p>La particularité de cette musique est qu'elle commence avec peu d'instruments (le piano et le clavecin),
 et d'autres s'ajoutent au fur et à mesure qu'on progresse afin de créer un effet de tension.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-composition-avec-musescore">🎶 Composition avec MuseScore<a href="https://github.com/little-sandman-docs/blog/music#-composition-avec-musescore" class="hash-link" aria-label="Direct link to 🎶 Composition avec MuseScore" title="Direct link to 🎶 Composition avec MuseScore">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-composition-avec-musescore">🎶 Composition avec MuseScore<a href="https://bj-lai.github.io/little-sandman-docs/blog/music#-composition-avec-musescore" class="hash-link" aria-label="Direct link to 🎶 Composition avec MuseScore" title="Direct link to 🎶 Composition avec MuseScore">​</a></h2>
 <p>La musique a été réalisée à l'aide de MuseScore, un logiciel gratuit permettant de composer des morceaux en utilisant la
 notation musicale standard, sur une partition.</p>
-<p><img decoding="async" loading="lazy" alt="musescore image" src="https://github.com/little-sandman-docs/assets/images/musescore-cbead2cedf7cd4cb938be4414342a2b7.png" width="1919" height="1018" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="musescore image" src="https://bj-lai.github.io/little-sandman-docs/assets/images/musescore-cbead2cedf7cd4cb938be4414342a2b7.png" width="1919" height="1018" class="img_ev3q"></p>
 <p>L'utilisation de ce logiciel est très pratique, car elle offre de nombreuses options d'exports,
 et notamment celle qui nous intéresse : exporter les pistes séparément.</p>
 <p>Cependant, un autre problème nous attend...</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-problème-de-loop">♾️ Problème de loop<a href="https://github.com/little-sandman-docs/blog/music#%EF%B8%8F-probl%C3%A8me-de-loop" class="hash-link" aria-label="Direct link to ♾️ Problème de loop" title="Direct link to ♾️ Problème de loop">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-problème-de-loop">♾️ Problème de loop<a href="https://bj-lai.github.io/little-sandman-docs/blog/music#%EF%B8%8F-probl%C3%A8me-de-loop" class="hash-link" aria-label="Direct link to ♾️ Problème de loop" title="Direct link to ♾️ Problème de loop">​</a></h2>
 <p>En général, dans les jeux-vidéos, la musique doit pouvoir tourner en boucle sans transition brusque,
 et sans blanc à la fin. Et c'est ce qu'on souhaite pour notre musique.</p>
 <p>Cependant, une particularité de MuseScore est que lorsqu'on exporte une musique, un blanc est rajouté à la fin pour permettre
@@ -33,7 +33,7 @@ aux dernières notes de résonner jusqu'à leur évanouissement complet, et il n
 <p>Après l'export, on obtient sept fichiers audio au format ogg, un pour chaque instrument, mais comme ils ont chacun
 un blanc à la fin, la boucle musicale ne peut malheureusement pas poursuivre de façon fluide.</p>
 <p>Il faut trouver un moyen de garantir une boucle parfaite !</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-raccourcissement-avec-un-script-python">💿 Raccourcissement avec un script python<a href="https://github.com/little-sandman-docs/blog/music#-raccourcissement-avec-un-script-python" class="hash-link" aria-label="Direct link to 💿 Raccourcissement avec un script python" title="Direct link to 💿 Raccourcissement avec un script python">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-raccourcissement-avec-un-script-python">💿 Raccourcissement avec un script python<a href="https://bj-lai.github.io/little-sandman-docs/blog/music#-raccourcissement-avec-un-script-python" class="hash-link" aria-label="Direct link to 💿 Raccourcissement avec un script python" title="Direct link to 💿 Raccourcissement avec un script python">​</a></h2>
 <p>Notre objectif est de couper la fin de chaque piste, en supprimant tout le temps écoulé après la mesure finale.</p>
 <p>On peut faire cela en utilisant n'importe quel éditeur audio, comme Audacity.</p>
 <p>Toutefois, le nombre de pistes étant relativement
@@ -42,7 +42,7 @@ une terrible désynchronisation des pistes après quelques tours de boucle.</p>
 <p>Il devient donc particulièrement intéressant d'automatiser ce processus.</p>
 <p>Pour ce faire, nous avons utilisé un script python utilisant le module de traitement audio <em>pydub</em>.
 Cela a permis d'automatiser efficacement le découpage des pistes, en garantissant une précision à la milliseconde près !</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-chargement-des-sons-dans-babylonjs">🔊 Chargement des sons dans Babylon.js<a href="https://github.com/little-sandman-docs/blog/music#-chargement-des-sons-dans-babylonjs" class="hash-link" aria-label="Direct link to 🔊 Chargement des sons dans Babylon.js" title="Direct link to 🔊 Chargement des sons dans Babylon.js">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-chargement-des-sons-dans-babylonjs">🔊 Chargement des sons dans Babylon.js<a href="https://bj-lai.github.io/little-sandman-docs/blog/music#-chargement-des-sons-dans-babylonjs" class="hash-link" aria-label="Direct link to 🔊 Chargement des sons dans Babylon.js" title="Direct link to 🔊 Chargement des sons dans Babylon.js">​</a></h2>
 <p>Il ne reste plus qu'à importer les sons dans Babylon. Mais prudence, il reste un dernier piège à éviter.</p>
 <p>Si on charge successivement toutes les pistes, puis, qu'on essaie immédiatement de les jouer, on peut obtenir le problème suivant :
 aucun son ne joue, car le chargement des sons n'est pas encore terminé et est toujours en train de continuer de manière asynchrone.</p>
