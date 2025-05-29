@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Le jeu est-il terminé ou encore en développement ?
 
 Le jeu est toujours en cours de développement.

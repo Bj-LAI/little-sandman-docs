@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Les Fraudes, c'est quoi ?
 
 Il s'agit du nom qu'on a donné à notre équipe, spécialement pour ce projet.
